@@ -71,6 +71,9 @@ function gestionarXml(dadesXml){
                 imprimirOpcionesSelect(i, xmlDoc);
                 preguntasSelect.push(i);
                 respuestasSelect.push(parseInt(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("answer")[0].innerHTML));
+                if (respuestasSelect[i] == undefined)  {
+                    respuestasSelect[i] = 0;
+                }
                 valorRespuestaSelect.push(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("option")[respuestasSelect[i]].innerHTML);
                 break;
             case "text":
