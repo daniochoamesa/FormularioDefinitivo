@@ -23,26 +23,6 @@ var preguntasSelectMultiple = [];
 var respuestasSelectMultiple = [];
 var valorRespuestasSelectMultiple = [];
 
-/* ---------------------------- REFACTORIZACION DICCIONARIO FUTURA ----------------------------
-    
-    var dict = {
-        "select0" : {
-            "indice" : 0;
-            "respuestas" : "perro";
-            "explicacion" : "<explanation>";
-        }
-        "checkbox0" :{
-            "indice" : 4;
-            "respuestas" : [0,2];
-            "explicacion" : "<explanation>";
-        }
-    }
-*/ 
-
-
-//**********************************************************************************************
-//AL CARGAR LA PAGINA
-//**********************************************************************************************
 window.onload = function(){ 
     //CORREGIR al apretar el botón
     formContainer=document.getElementById('myform');
@@ -70,7 +50,7 @@ window.onload = function(){
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "XML/preguntas.xml", true);
+    xhttp.open("GET", "xml/preguntas.xml", true);
     xhttp.send();
 }
 
