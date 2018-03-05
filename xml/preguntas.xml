@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
  <question id='mlag_001'>
-  <type>text</type>
-  <title>1x1x1+1x5-1/1</title>
-  <answer>5</answer>
- </question>
- <question id='mlag_002'>
-  <type>text</type>
-  <title>¿Que número es igual si se lee normal o del revés?</title>
-  <answer>Capicua</answer>
- </question>
- <question id='mlag_003'>
   <type>select</type>
   <title>¿Que tipo de ser vivo eres?</title>
   <option>Perro</option>
@@ -19,7 +9,7 @@
   <option>No lo tengo claro</option>
   <answer>4</answer>
  </question>
- <question id='mlag_004'>
+ <question id='mlag_002'>
   <type>select</type>
   <title>Y tu edad,¿que?¿Cual es?</title>
   <option>Esto no se pregunta</option>
@@ -27,6 +17,19 @@
   <option>Azul</option> 
   <option>¿Este formulario no iba sobre astronomía?</option>
   <answer>1</answer>
+  <type>text</type>
+  <title>¿Que número es igual si se lee normal o del revés?</title>
+  <answer>Capicua</answer>
+ </question>
+ <question id='mlag_003'>
+  <type>text</type>
+  <title>1x1x1+1x5-1/1</title>
+  <answer>5</answer>
+ </question>
+ <question id='mlag_004'>
+  <type>text</type>
+  <title>¿Que número es igual si se lee normal o del revés?</title>
+  <answer>Capicua</answer>
  </question>
   <question id='mlag_005'>
   <type>radio</type>
