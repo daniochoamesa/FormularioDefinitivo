@@ -75,6 +75,9 @@ function gestionarXml(dadesXml){
                     respuestasSelect[i] = 0;
                 }
                 valorRespuestaSelect.push(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("option")[respuestasSelect[i]].innerHTML));
+                if (valorRespuestaSelect[i] == undefined)  {
+                    valorRespuestaSelect[i] = 0;
+                }
                 break;
             case "text":
                 crearDivPregunta(i);
