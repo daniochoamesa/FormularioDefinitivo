@@ -48,7 +48,7 @@
   <answer>4</answer>
  </question>
   <question id='mlag_007'>
-  <type>multiple</type>
+  <type>select multiple</type>
   <title>A ver si sabes de LoL, ¿que campeones son femeninos?</title>
   <option>Tristana</option>
   <option>Illaoi</option> 
@@ -58,7 +58,7 @@
   <answer>2</answer>
  </question>
   <question id='mlag_008'>
-  <type>multiple</type>
+  <type>select multiple</type>
   <title>¿Cuáles de los siguientes personajes son tiradores?</title>
   <option>Lux</option>
   <option>Lucian</option> 
