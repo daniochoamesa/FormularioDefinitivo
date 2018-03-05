@@ -496,10 +496,3 @@ function comprobar(){
     }
     return true;
 }
-
-/*
-// POSIBLES REFACTORIZACIONES FUTURAS
-//
-// Convertir todos los arrays en un diccionario
-// Añadir cronometro para el examen
-*/
