@@ -70,7 +70,7 @@ window.onload = function(){
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "xml/preguntas.xml", true);
+    xhttp.open("GET", "XML/preguntas.xml", true);
     xhttp.send();
 }
 
