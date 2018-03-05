@@ -18,8 +18,6 @@
   <option>¿Este formulario no iba sobre astronomía?</option>
   <answer>1</answer>
   <type>text</type>
-  <title>¿Que número es igual si se lee normal o del revés?</title>
-  <answer>Capicua</answer>
  </question>
  <question id='mlag_003'>
   <type>text</type>
